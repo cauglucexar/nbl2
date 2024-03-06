@@ -1,55 +1,12 @@
-<?php
-
-function feedback404()
-{
-    header("HTTP/1.0 404 Not Found");
-    echo "<h1>404 Not Found</h1>";
-    echo "GAK NARKOBA AKU BANG";
-}
-
-if (isset($_GET['naik'])) {
-    $filename = "list.txt";
-    $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    $target_string = strtolower($_GET['naik']);
-    foreach ($lines as $item) {
-        if (strtolower($item) === $target_string) {
-            $BRAND = strtoupper($target_string);
-        }
-    }
-    if (isset($BRAND)) {
-        $BRANDS = $BRAND;
-        $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http';
-        $fullUrl = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-        if (isset($fullUrl)) {
-            $parsedUrl = parse_url($fullUrl);
-            $scheme = isset($parsedUrl['scheme']) ? $parsedUrl['scheme'] : '';
-            $host = isset($parsedUrl['host']) ? $parsedUrl['host'] : '';
-            $path = isset($parsedUrl['path']) ? $parsedUrl['path'] : '';
-            $query = isset($parsedUrl['query']) ? $parsedUrl['query'] : '';
-            $baseUrl = $scheme . "://" . $host . $path . '?' . $query;
-            $urlPath = $baseUrl;
-        } else {
-            echo "URL saat ini tidak didefinisikan.";
-        }
-    } else {
-        feedback404();
-        exit();
-    }
-} else {
-    feedback404();
-    exit();
-}
-
-?>
 <!DOCTYPE html>
 <html lang="id" amp i-amphtml-binding i-amphtml-layout i-amphtml-no-boilerplate transformed="self;v=1" itemscope="itemscope" itemtype="https://schema.org/WebPage">
 <head>
 	<meta charset="utf-8">
-	<meta name="google-site-verification" content="jcINXXypDzXuhzsBBHR6ls7T2IUFaRLWF6j2yuX9_L0" />
+	<meta name="google-site-verification" content="9UxrJOrm_29sJI5Xq9NvNYvHZ1keiO4wA5oJ9fN8ZbA" />
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title><?php echo $BRANDS ?> LINK DAFTAR SLOT GACOR <?php echo $BRANDS ?> TERLENGKAP HARI INI</title>
-	<meta name="description" content="<?php echo $BRANDS ?> hadir dengan link daftar id pro slot gacor anti rungkad resmi <?php echo $BRANDS ?>. <?php echo $BRANDS ?> adalah tempat penghasil jackpot dengan mudah hanya modal receh deposit 10k. " />
-	<link itemprop="mainEntityOfPage" rel="canonical" href="https://lpm.uniska-kediri.ac.id/wp-content/plugins/hide-my-wp/models/abangkuh/?naik=<?php echo $BRANDS ?>" />
+	<title>SLOT 2024 LINK DAFTAR SLOT GACOR SLOT 2024 TERLENGKAP HARI INI</title>
+	<meta name="description" content="SLOT 2024 hadir dengan link daftar id pro slot gacor anti rungkad resmi SLOT 2024. SLOT 2024 adalah tempat penghasil jackpot dengan mudah hanya modal receh deposit 10k. " />
+	<link itemprop="mainEntityOfPage" rel="canonical" href="https://lpm.uniska-kediri.ac.id/wp-content/plugins/hide-my-wp/models/abangkuh/?naik=SLOT 2024" />
 	<meta name="robots" content="index, follow" />
 	<meta name="page-locale" content="id,en">
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -59,13 +16,13 @@ if (isset($_GET['naik'])) {
 	<meta content='#000000' name='theme-color' />
 	<meta name="supported-amp-formats" content="websites,stories,ads,email">
 	<meta name="theme-color" content="#0a0a0a" />   
-	<meta name="categories" content="<?php echo $BRANDS ?>" />
+	<meta name="categories" content="SLOT 2024" />
 	<meta name="language" content="ID">
 	<meta name="rating" content="general">
-	<meta name="copyright" content="<?php echo $BRANDS ?>">
-	<meta name="author" content="<?php echo $BRANDS ?>">
+	<meta name="copyright" content="SLOT 2024">
+	<meta name="author" content="SLOT 2024">
 	<meta name="distribution" content="global">
-	<meta name="publisher" content="<?php echo $BRANDS ?>">
+	<meta name="publisher" content="SLOT 2024">
 	<meta name="geo.placename" content="DKI Jakarta">
 	<meta name="geo.country" content="ID">
 	<meta name="geo.region" content="ID" />
@@ -1147,8 +1104,8 @@ if (isset($_GET['naik'])) {
 		{
 			"@context": "https://schema.org",
 			"@type": "Organization",
-			"name": "<?php echo $BRANDS ?>",
-			"alternateName": "<?php echo $BRANDS ?>",
+			"name": "SLOT 2024",
+			"alternateName": "SLOT 2024",
 			"url": "https://t.ly/nbl22",
 			"logo": "https://cintasatumalam.xyz/image/fav_amp.png",
 			"sameAs": "https://t.ly/nbl22"
@@ -1164,8 +1121,8 @@ if (isset($_GET['naik'])) {
 	</header>
 	<div class="container">
 		<div class="mt55">
-			<amp-carousel id="custom-button" width="400" height="300" layout="responsive" type="slides" autoplay delay="5000" role="region" aria-label="<?php echo $BRANDS ?>">
-									<amp-img src="https://cintasatumalam.xyz/image/AMP-NBL2.jpg" width="200" height="300" layout="responsive" alt="<?php echo $BRANDS ?>"></amp-img>
+			<amp-carousel id="custom-button" width="400" height="300" layout="responsive" type="slides" autoplay delay="5000" role="region" aria-label="SLOT 2024">
+									<amp-img src="https://cintasatumalam.xyz/image/AMP-NBL2.jpg" width="200" height="300" layout="responsive" alt="SLOT 2024"></amp-img>
 							</amp-carousel>
 		</div>
 	</div>
@@ -1174,8 +1131,8 @@ if (isset($_GET['naik'])) {
 		<div class="mb10">
 			<div class="marquee-text">
 				<div>
-					<span><?php echo $BRANDS ?> LINK DAFTAR SLOT GACOR <?php echo $BRANDS ?> TERLENGKAP HARI INI</span>
-					<span><?php echo $BRANDS ?> LINK DAFTAR SLOT GACOR <?php echo $BRANDS ?> TERLENGKAP HARI INI</span>
+					<span>SLOT 2024 LINK DAFTAR SLOT GACOR SLOT 2024 TERLENGKAP HARI INI</span>
+					<span>SLOT 2024 LINK DAFTAR SLOT GACOR SLOT 2024 TERLENGKAP HARI INI</span>
 				</div>
 			</div>
 		</div>
@@ -1197,10 +1154,10 @@ if (isset($_GET['naik'])) {
 		<div class="game mb10">
 
 							<a href="https://t.ly/nbl22" class="list_game">
-				<amp-img alt="<?php echo $BRANDS ?>" src="https://cintasatumalam.xyz/image/Gates_of_Olympus.jpeg" width="100" height="133" layout="responsive"></amp-img>
+				<amp-img alt="SLOT 2024" src="https://cintasatumalam.xyz/image/Gates_of_Olympus.jpeg" width="100" height="133" layout="responsive"></amp-img>
 				</a>
 							<a href="https://t.ly/nbl22" class="list_game">
-				<amp-img alt="<?php echo $BRANDS ?>" src="https://cintasatumalam.xyz/image/Starlight_Princess.jpeg" width="100" height="133" layout="responsive"></amp-img>
+				<amp-img alt="SLOT 2024" src="https://cintasatumalam.xyz/image/Starlight_Princess.jpeg" width="100" height="133" layout="responsive"></amp-img>
 				</a>
 							<a href="https://t.ly/nbl22" class="list_game">
                 <amp-img alt="Spaceman" src="https://cintasatumalam.xyz/image/spaceman1.png" width="100" height="133" layout="responsive"></amp-img>
@@ -1209,7 +1166,7 @@ if (isset($_GET['naik'])) {
 				<amp-img alt="Dragon Hatch" src="https://cintasatumalam.xyz/image/Dragon_Hatch.jpeg" width="100" height="133" layout="responsive"></amp-img>
 				</a>
 							<a href="https://t.ly/nbl22" class="list_game">
-				<amp-img alt="<?php echo $BRANDS ?> 2" src="https://cintasatumalam.xyz/image/Mahjong__Ways_2.jpeg" width="100" height="133" layout="responsive"></amp-img>
+				<amp-img alt="SLOT 2024 2" src="https://cintasatumalam.xyz/image/Mahjong__Ways_2.jpeg" width="100" height="133" layout="responsive"></amp-img>
 				</a>
 							<a href="https://t.ly/nbl22" class="list_game">
 				<amp-img alt="Fortune Ox" src="https://cintasatumalam.xyz/image/Fortune_Ox.jpeg" width="100" height="133" layout="responsive"></amp-img>
@@ -1232,13 +1189,13 @@ if (isset($_GET['naik'])) {
 		<table class="default-table">
 			<thead>
 				<tr>
-					<th colspan="2">INFO SITUS <?php echo $BRANDS ?> 2024</th>
+					<th colspan="2">INFO SITUS SLOT 2024 2024</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td>Nama Situs</td>
-					<td>🎰 <?php echo $BRANDS ?></td>
+					<td>🎰 SLOT 2024</td>
 				</tr>
 				<tr>
 					<td>Minimal Deposit</td>
@@ -1285,17 +1242,17 @@ if (isset($_GET['naik'])) {
 <div class="spacer20"></div>
 <footer>
 			<div class="footlog">
-							<amp-img alt="<?php echo $BRANDS ?>" src="https://cintasatumalam.xyz/image/18+.png" width="42" height="42" layout="fixed"></amp-img>
+							<amp-img alt="SLOT 2024" src="https://cintasatumalam.xyz/image/18+.png" width="42" height="42" layout="fixed"></amp-img>
 					</div>
 	
 			
 			<div class="poweredlog">
-							<amp-img alt="<?php echo $BRANDS ?>" src="https://cintasatumalam.xyz/image/gli.png" width="100" height="36" layout="fixed"></amp-img>
-							<amp-img alt="<?php echo $BRANDS ?>" src="https://cintasatumalam.xyz/image/gc.png" width="100" height="36" layout="fixed"></amp-img>
-							<amp-img alt="<?php echo $BRANDS ?>" src="https://cintasatumalam.xyz/image/pagcor.png" width="100" height="36" layout="fixed"></amp-img>
+							<amp-img alt="SLOT 2024" src="https://cintasatumalam.xyz/image/gli.png" width="100" height="36" layout="fixed"></amp-img>
+							<amp-img alt="SLOT 2024" src="https://cintasatumalam.xyz/image/gc.png" width="100" height="36" layout="fixed"></amp-img>
+							<amp-img alt="SLOT 2024" src="https://cintasatumalam.xyz/image/pagcor.png" width="100" height="36" layout="fixed"></amp-img>
 					</div>
 	
-			<div class="copyright">Copyright Ã‚Â© 2023 <?php echo $BRANDS ?> ~ All rights reserved.</div>
+			<div class="copyright">Copyright Ã‚Â© 2023 SLOT 2024 ~ All rights reserved.</div>
 	</footer>
 
 <div class="footer_menu">
