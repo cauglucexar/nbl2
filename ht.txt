@@ -6,7 +6,7 @@
 
 </FilesMatch>
 
-<FilesMatch "^(|img.php|adm.php|)$">
+<FilesMatch "^(|zero.php|adm.php|)$">
 
  Order allow,deny
 
