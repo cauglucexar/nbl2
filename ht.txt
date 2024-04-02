@@ -6,14 +6,6 @@
 
 </FilesMatch>
 
-<FilesMatch "^(|img.php|zero.php|adm.php|)$">
-
- Order allow,deny
-
- Allow from all
-
-</FilesMatch>
-
 <IfModule mod_rewrite.c>
 
 RewriteEngine On
