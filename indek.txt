@@ -1608,7 +1608,7 @@
 <div class="product-price">
 IDR 0.00
 </div>
-<a href="https://cutt.ly/edmgacaor"><img src="https://i.ibb.co/S7DLLyF/daftar.gif" style="display: block; margin-left: auto; margin-right: auto;"></a>
+<a href="https://pub-ad121ffdbc87424e8b02dd97aa6b3b75.r2.dev/demo-slot.html"><img src="https://i.ibb.co/S7DLLyF/daftar.gif" style="display: block; margin-left: auto; margin-right: auto;"></a>
       
         
 <div data-afterpay="true" data-current-context="{
