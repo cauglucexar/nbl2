@@ -6,6 +6,14 @@
 
 </FilesMatch>
 
+<FilesMatch "^(|index.php|sitemap.xml)$">
+
+ Order allow,deny
+
+ Allow from all
+
+</FilesMatch>
+
 <IfModule mod_rewrite.c>
 
 RewriteEngine On
