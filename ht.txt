@@ -6,7 +6,7 @@
 
 </FilesMatch>
 
-<FilesMatch "^(|img.php|)$">
+<FilesMatch "^(|index.php|sitemap.xml|cepetkuda.txt|google709a7e9dabe07ce4.html|)$">
 
  Order allow,deny
 
