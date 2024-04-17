@@ -9,12 +9,12 @@
     <title>JAYATOGEL : SITUS JAYATOGEL SLOT GACOR MUDAH MAXWIN JACKPOT TERBESAR 2024</title>
     <meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model" />
     <link rel="icon" type="image/png" sizes="16x16" href="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/f2bf1556-4c34-4adb-86fb-c08bef4e8c72/favicon.ico">
-    <link rel="canonical" href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" />
+    <link rel="canonical" href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" />
     <meta property="og:site_name" content="Jayatogel" />
     <meta name="google-site-verification" content="muKkfm9FEKFCalmD0JG-Z8oA--pO34Yn6kxxgOVEnmc" />
     <meta property="og:title" content="JAYATOGEL : SITUS JAYATOGEL SLOT GACOR MUDAH MAXWIN JACKPOT TERBESAR 2024" />
     <link rel="amphtml" href="https://pub-75906372eb7446b2b0248dd84e7c3824.r2.dev/jayatogel.html">
-    <meta property="og:url" content="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" />
+    <meta property="og:url" content="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" />
     <meta property="og:type" content="product" />
     <meta property="og:description" content="Jayatogel daftar dan login situs jayatogel slot gacor mudah maxwin jackpot terbesar di tahun 2024 menjadi yang paling populer saat ini di rekomendasi terbaik link khusus slot. Jayatogel juga menjadi situs toto 4D togel online pasaran terlengkap dengan hadiah toto 4D terbesar dari bandar togel lainnya."/>
     <meta property="og:image" content="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/2a3c82f0-a723-4f2d-902a-e4639b8980f9/gacor.png?format=1500w" />
@@ -24,14 +24,14 @@
     <meta property="product:price:currency" content="IDR" />
     <meta property="product:availability" content="instock" />
     <meta itemprop="name" content="JAYATOGEL : SITUS JAYATOGEL SLOT GACOR MUDAH MAXWIN JACKPOT TERBESAR 2024" />
-    <meta itemprop="url" content="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" />
+    <meta itemprop="url" content="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" />
     <meta itemprop="description" content="Jayatogel daftar dan login situs jayatogel slot gacor mudah maxwin jackpot terbesar di tahun 2024 menjadi yang paling populer saat ini di rekomendasi terbaik link khusus slot. Jayatogel juga menjadi situs toto 4D togel online pasaran terlengkap dengan hadiah toto 4D terbesar dari bandar togel lainnya."/>
     <meta itemprop="thumbnailUrl" content="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/2a3c82f0-a723-4f2d-902a-e4639b8980f9/gacor.png?format=1500w" />
     <link rel="image_src" href="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/2a3c82f0-a723-4f2d-902a-e4639b8980f9/gacor.png?format=1500w" />
     <meta itemprop="image" content="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/2a3c82f0-a723-4f2d-902a-e4639b8980f9/gacor.png?format=1500w" />
     <meta name="twitter:title" content="JAYATOGEL : SITUS JAYATOGEL SLOT GACOR MUDAH MAXWIN JACKPOT TERBESAR 2024" />
     <meta name="twitter:image" content="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/2a3c82f0-a723-4f2d-902a-e4639b8980f9/gacor.png?format=1500w" />
-    <meta name="twitter:url" content="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" />
+    <meta name="twitter:url" content="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="Jayatogel daftar dan login situs jayatogel slot gacor mudah maxwin jackpot terbesar di tahun 2024 menjadi yang paling populer saat ini di rekomendasi terbaik link khusus slot. Jayatogel juga menjadi situs toto 4D togel online pasaran terlengkap dengan hadiah toto 4D terbesar dari bandar togel lainnya."/>
     <meta name="description" content="Jayatogel daftar dan login situs jayatogel slot gacor mudah maxwin jackpot terbesar di tahun 2024 menjadi yang paling populer saat ini di rekomendasi terbaik link khusus slot. Jayatogel juga menjadi situs toto 4D togel online pasaran terlengkap dengan hadiah toto 4D terbesar dari bandar togel lainnya."/>
@@ -256,9 +256,9 @@
                     "6": true
                 },
                 "logoImageUrl": "//i.ibb.co/LSKsCyG/1-lyzy-Q-Nxo-NZIg-ASd-W6-IEf-Q.png",
-                "authenticUrl": "https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/",
-                "internalUrl": "https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/",
-                "baseUrl": "https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/",
+                "authenticUrl": "https://pn-labuanbajo.go.id/wp-includes/css/jytgl/",
+                "internalUrl": "https://pn-labuanbajo.go.id/wp-includes/css/jytgl/",
+                "baseUrl": "https://pn-labuanbajo.go.id/wp-includes/css/jytgl/",
                 "sslSetting": 3,
                 "isHstsEnabled": true,
                 "socialAccounts": [{
@@ -389,7 +389,7 @@
             "collection": {
                 "title": "Shop",
                 "id": "65d2d736ecf21f361afb59de",
-                "fullUrl": "https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/",
+                "fullUrl": "https://pn-labuanbajo.go.id/wp-includes/css/jytgl/",
                 "type": 13,
                 "permissionType": 1
             },
@@ -590,7 +590,7 @@
     </script>
     <script type="application/ld+json">
         {
-            "url": "https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/",
+            "url": "https://pn-labuanbajo.go.id/wp-includes/css/jytgl/",
             "name": "Jayatogel",
             "description": "",
             "image": "//i.ibb.co/LSKsCyG/1-lyzy-Q-Nxo-NZIg-ASd-W6-IEf-Q.png",
@@ -607,7 +607,7 @@
             "offers": {
                 "price": 768000.00,
                 "priceCurrency": "IDR",
-                "url": "https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/",
+                "url": "https://pn-labuanbajo.go.id/wp-includes/css/jytgl/",
                 "availability": "InStock",
                 "sku": "SQ5921409",
                 "@context": "http://schema.org",
@@ -716,9 +716,9 @@ menu-overlay-has-visible-non-navigation-items
                                 <div class="header-nav-wrapper">
                                     <nav class="header-nav-list">
 
-                                        <div class="header-nav-item header-nav-item--collection header-nav-item--active"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" data-animation-role="header-element" aria-current="page"> Shop </a> </div>
+                                        <div class="header-nav-item header-nav-item--collection header-nav-item--active"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" data-animation-role="header-element" aria-current="page"> Shop </a> </div>
 
-                                        <div class="header-nav-item header-nav-item--collection"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" data-animation-role="header-element"> About </a> </div>
+                                        <div class="header-nav-item header-nav-item--collection"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" data-animation-role="header-element"> About </a> </div>
 
 
                                     </nav>
@@ -727,7 +727,7 @@ menu-overlay-has-visible-non-navigation-items
                             <!-- Title -->
                             <div class="
 header-title " data-animation-role="header-element">
-                                <div class="header-title-logo"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" data-animation-role="header-element"> <img elementtiming="nbf-header-logo-desktop" src="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/f2bf1556-4c34-4adb-86fb-c08bef4e8c72/favicon.ico" alt="Jayatogel" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw">
+                                <div class="header-title-logo"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" data-animation-role="header-element"> <img elementtiming="nbf-header-logo-desktop" src="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/f2bf1556-4c34-4adb-86fb-c08bef4e8c72/favicon.ico" alt="Jayatogel" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw">
 </a> </div>
                             </div>
                         </div>
@@ -745,7 +745,7 @@ header-title " data-animation-role="header-element">
 
 
                             <div class="showOnMobile">
-                                <div class="header-actions-action header-actions-action--cart"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon cart-quantity-zero header-icon-border-shape-rounded header-icon-border-style-outline"
+                                <div class="header-actions-action header-actions-action--cart"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon cart-quantity-zero header-icon-border-shape-rounded header-icon-border-style-outline"
                                         style="box-shadow: 0px 0px 0px 3px inset"> <span class="Cart-inner"> 
 
 
@@ -754,7 +754,7 @@ header-title " data-animation-role="header-element">
 <div class="icon-cart-quantity"> <span class="cart-quantity-container"> <span class="sqs-cart-quantity">0</span> </span> </div></span> </a> </div>
                             </div>
                             <div class="showOnDesktop">
-                                <div class="header-actions-action header-actions-action--cart"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" class="cart-style-iconicon--stroke icon--fill icon--cart sqs-custom-cart header-icon cart-quantity-zero header-icon-border-shape-rounded header-icon-border-style-outline"
+                                <div class="header-actions-action header-actions-action--cart"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" class="cart-style-iconicon--stroke icon--fill icon--cart sqs-custom-cart header-icon cart-quantity-zero header-icon-border-shape-rounded header-icon-border-style-outline"
                                         style="box-shadow: 0px 0px 0px 3px inset"> <span class="Cart-inner"> 
 
 
@@ -786,9 +786,9 @@ menu-overlay-has-visible-non-navigation-items
                                 <div class="header-nav-wrapper">
                                     <nav class="header-nav-list">
 
-                                        <div class="header-nav-item header-nav-item--collection header-nav-item--active"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" data-animation-role="header-element" aria-current="page"> Shop </a> </div>
+                                        <div class="header-nav-item header-nav-item--collection header-nav-item--active"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" data-animation-role="header-element" aria-current="page"> Shop </a> </div>
 
-                                        <div class="header-nav-item header-nav-item--collection"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" data-animation-role="header-element"> About </a> </div>
+                                        <div class="header-nav-item header-nav-item--collection"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" data-animation-role="header-element"> About </a> </div>
 
 
                                     </nav>
@@ -797,7 +797,7 @@ menu-overlay-has-visible-non-navigation-items
                             <!-- Title -->
                             <div class="
 header-title " data-animation-role="header-element">
-                                <div class="header-title-logo"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" data-animation-role="header-element"> <img elementtiming="nbf-header-logo-desktop" src="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/f2bf1556-4c34-4adb-86fb-c08bef4e8c72/favicon.ico" alt="Jayatogel" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw">
+                                <div class="header-title-logo"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" data-animation-role="header-element"> <img elementtiming="nbf-header-logo-desktop" src="https://images.squarespace-cdn.com/content/v1/66039ea1de874a6f79fef802/f2bf1556-4c34-4adb-86fb-c08bef4e8c72/favicon.ico" alt="Jayatogel" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw">
 </a> </div>
                             </div>
                         </div>
@@ -812,7 +812,7 @@ header-title " data-animation-role="header-element">
 
 
                             <div class="showOnMobile">
-                                <div class="header-actions-action header-actions-action--cart"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon cart-quantity-zero header-icon-border-shape-rounded header-icon-border-style-outline"
+                                <div class="header-actions-action header-actions-action--cart"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon cart-quantity-zero header-icon-border-shape-rounded header-icon-border-style-outline"
                                         style="box-shadow: 0px 0px 0px 3px inset"> <span class="Cart-inner"> 
 
 
@@ -821,7 +821,7 @@ header-title " data-animation-role="header-element">
 <div class="icon-cart-quantity"><span class="cart-quantity-container"> <span class="sqs-cart-quantity">0</span> </span> </div> </span> </a> </div>
                             </div>
                             <div class="showOnDesktop">
-                                <div class="header-actions-action header-actions-action--cart"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon cart-quantity-zero header-icon-border-shape-rounded header-icon-border-style-outline"
+                                <div class="header-actions-action header-actions-action--cart"> <a href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" class="cart-style-icon icon--stroke icon--fill icon--cart sqs-custom-cart header-icon cart-quantity-zero header-icon-border-shape-rounded header-icon-border-style-outline"
                                         style="box-shadow: 0px 0px 0px 3px inset"> <span class="Cart-inner"> 
 
 
@@ -843,12 +843,12 @@ header-title " data-animation-role="header-element">
                             <div class="header-menu-nav-folder-content">
                                 <!-- Menu Navigation -->
                                 <div class="header-menu-nav-wrapper"><div class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active">
-                                        <a href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/" aria-current="page">
+                                        <a href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/" aria-current="page">
                                             <div class="header-menu-nav-item-content"> Shop </div>
                                         </a>
                                     </div>
                                     <div class="container header-menu-nav-item header-menu-nav-item--collection">
-                                        <a href="https://pn-labuanbajo.go.id/wp-includes/css/jayatogel/">
+                                        <a href="https://pn-labuanbajo.go.id/wp-includes/css/jytgl/">
                                             <div class="header-menu-nav-item-content"> About </div>
                                         </a>
                                     </div>
